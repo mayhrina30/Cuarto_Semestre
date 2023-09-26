@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div class="options">
+            <div class="option active" style="--optionBackground: url(https://user-images.githubusercontent.com/95154280/268538774-9de538dc-f78d-4a27-93fd-8680864cb3f1.jpeg);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">los pitufos de la programacion</div>
+                        <div class="sub">Historia...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(https://user-images.githubusercontent.com/95154280/268538497-ff190022-879d-4ad7-968e-14f391af8452.jpeg);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">Avon</div>
+                        <div class="sub">en esta pestaña encontraras produyctos de avon</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(https://user-images.githubusercontent.com/95154280/268538666-5bd0e52e-30d1-4e7c-823a-badbebf325b9.jpeg);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">tsu cosmeticos</div>
+                        <div class="sub">encontraras productos tsu cosmeticos</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(https://user-images.githubusercontent.com/95154280/268538685-54d0dec0-63c1-4567-96fd-4f57e169add5.jpeg);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">Natura</div>
+                        <div class="sub">encontraras productos de Natura</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(https://user-images.githubusercontent.com/95154280/268538699-9be247fb-df7f-41d5-9a5e-d939f9a5157d.jpeg);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">Super Promos</div>
+                        <div class="sub">Encontraras super promociones</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(".option").click(function () {
+                $(".option").removeClass("active");
+                $(this).addClass("active");
+            });
+        </script>
+    </body>
+</html>
