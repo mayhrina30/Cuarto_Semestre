@@ -1,8 +1,0 @@
-packege utn.tienda_libro
-public class Libro{
-
-
-@Entity
-@Data
-@NoArgsConstuctor
-@AllArgsConstructor
